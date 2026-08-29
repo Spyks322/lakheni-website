@@ -1,0 +1,627 @@
+/* =========================================
+   LAKHENI TECHNOLOGIES
+   Main Website Stylesheet
+   ========================================= */
+
+
+/* =========================================
+   1. GENERAL SETTINGS
+   ========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f7fa;
+    color: #222;
+}
+
+
+/* =========================================
+   2. CONTAINER
+   ========================================= */
+
+main,
+header,
+nav,
+footer {
+    width: 100%;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+
+/* =========================================
+   3. HEADER
+   ========================================= */
+
+header {
+    background-color: #071a3d;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 25px;
+
+    padding: 25px 20px;
+}
+
+header img {
+    max-width: 180px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #d4af37;
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+
+/* =========================================
+   4. NAVIGATION
+   ========================================= */
+
+nav {
+    background-color: #0d2859;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 0 20px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    padding: 16px 20px;
+
+    transition: 0.3s;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #d4af37;
+    color: #071a3d;
+}
+
+
+/* =========================================
+   5. HERO SECTION
+   ========================================= */
+
+main > section:first-child {
+    max-width: none;
+
+    min-height: 500px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 80px 20px;
+
+    background:
+        linear-gradient(
+            rgba(7, 26, 61, 0.88),
+            rgba(7, 26, 61, 0.88)
+        ),
+        url("../images/cctv/cctv-hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+}
+
+main > section:first-child h2 {
+    max-width: 900px;
+
+    font-size: 3rem;
+
+    line-height: 1.2;
+
+    margin-bottom: 20px;
+}
+
+main > section:first-child p {
+    max-width: 800px;
+
+    font-size: 1.1rem;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================================
+   6. HEADINGS
+   ========================================= */
+
+h2 {
+    color: #071a3d;
+
+    font-size: 2.2rem;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+
+h3 {
+    color: #0d2859;
+
+    font-size: 1.4rem;
+
+    margin-bottom: 10px;
+}
+
+
+/* =========================================
+   7. PARAGRAPHS
+   ========================================= */
+
+p {
+    margin-bottom: 15px;
+}
+
+
+/* =========================================
+   8. LINKS AND BUTTONS
+   ========================================= */
+
+a {
+    color: #0d2859;
+}
+
+main a {
+    font-weight: bold;
+}
+
+main a:hover {
+    color: #b28f19;
+}
+
+main > section:first-child a,
+button {
+    display: inline-block;
+
+    background-color: #d4af37;
+
+    color: #071a3d;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+main > section:first-child a:hover,
+button:hover {
+    background-color: white;
+
+    color: #071a3d;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================
+   9. PRODUCT AND SERVICE ARTICLES
+   ========================================= */
+
+section article {
+    background-color: white;
+
+    border-radius: 10px;
+
+    padding: 25px;
+
+    margin: 15px 0;
+
+    border-left: 5px solid #d4af37;
+
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+section article:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================================
+   10. LISTS
+   ========================================= */
+
+section ul,
+section ol {
+    max-width: 900px;
+
+    margin: 20px auto;
+
+    padding-left: 30px;
+}
+
+section li {
+    margin-bottom: 10px;
+}
+
+
+/* =========================================
+   11. CONTACT INFORMATION
+   ========================================= */
+
+address {
+    max-width: 700px;
+
+    margin: 0 auto;
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.08);
+
+    font-style: normal;
+}
+
+address a {
+    font-weight: bold;
+}
+
+
+/* =========================================
+   12. FORMS
+   ========================================= */
+
+form {
+    max-width: 800px;
+
+    margin: 30px auto;
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+form > div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+
+    font-weight: bold;
+
+    margin-bottom: 7px;
+
+    color: #071a3d;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #bbb;
+
+    border-radius: 5px;
+
+    font-size: 1rem;
+
+    font-family: inherit;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 3px solid rgba(212, 175, 55, 0.35);
+
+    border-color: #d4af37;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* =========================================
+   13. RADIO BUTTONS AND CHECKBOXES
+   ========================================= */
+
+fieldset {
+    border: 1px solid #ddd;
+
+    border-radius: 5px;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+
+    color: #071a3d;
+
+    padding: 0 8px;
+}
+
+fieldset div {
+    margin-bottom: 8px;
+}
+
+fieldset input {
+    width: auto;
+
+    margin-right: 8px;
+}
+
+fieldset label {
+    display: inline;
+
+    font-weight: normal;
+}
+
+
+/* =========================================
+   14. TABLE
+   ========================================= */
+
+table {
+    width: 100%;
+
+    max-width: 800px;
+
+    margin: 25px auto;
+
+    border-collapse: collapse;
+
+    background-color: white;
+
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+th,
+td {
+    padding: 14px;
+
+    border: 1px solid #ddd;
+
+    text-align: left;
+}
+
+th {
+    background-color: #071a3d;
+
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f3f6;
+}
+
+
+/* =========================================
+   15. FOOTER
+   ========================================= */
+
+footer {
+    background-color: #071a3d;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 40px 20px;
+
+    margin-top: 30px;
+}
+
+footer h2 {
+    color: white;
+
+    font-size: 1.6rem;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #d4af37;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: white;
+}
+
+
+/* =========================================
+   16. RESPONSIVE DESIGN
+   ========================================= */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 1.7rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+
+        gap: 0;
+
+        width: 100%;
+    }
+
+    nav li {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    nav a {
+        width: 100%;
+    }
+
+    main > section:first-child {
+        min-height: 450px;
+
+        padding: 60px 20px;
+    }
+
+    main > section:first-child h2 {
+        font-size: 2.2rem;
+    }
+
+    section {
+        padding: 45px 20px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    section article {
+        margin: 12px 0;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+}
+
+
+/* =========================================
+   17. SMALL MOBILE DEVICES
+   ========================================= */
+
+@media (max-width: 480px) {
+
+    header img {
+        max-width: 140px;
+    }
+
+    header h1 {
+        font-size: 1.4rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    main > section:first-child h2 {
+        font-size: 1.8rem;
+    }
+
+    main > section:first-child p {
+        font-size: 1rem;
+    }
+
+    section {
+        padding: 35px 15px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    button {
+        width: 100%;
+
+        margin-top: 8px;
+    }
+}
