@@ -534,7 +534,7 @@ Resolution: 1366 × 768
 
 The laptop version was tested to ensure that the website content fits correctly within the available screen size.
 
-![Laptop screenshot](images/screenshots/Laptop-screenshot.jpg)
+![Laptop screenshot](images/screenshots/Laptop-screenshot.png)
 
 ### Part 2
 ### Tablet Testing
@@ -543,7 +543,7 @@ Resolution: 768 × 1024
 
 The tablet version was tested to ensure that the layout adapts correctly to a smaller screen.
 
-![Tablet screenshot](images/screenshots/Tablet-screenshot.jpg)
+![Tablet screenshot](images/screenshots/Tablet-screenshot.png)
 
 
 ### Mobile Testing
@@ -552,4 +552,4 @@ Resolution: 390 × 844
 
 The mobile version was tested to ensure that the website remains readable and usable on a small screen.
 
-![Mobile screenshot](images/screenshots/Mobile-screenshot.jpg)
+![Mobile screenshot](images/screenshots/Mobile-screenshot.png)
