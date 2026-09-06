@@ -627,4 +627,18 @@ footer a:hover {
 }.hero-tagline {
     color: #F5B400;
     font-weight: 700;
+}.map-section {
+    text-align: center;
+}
+
+.map-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.map-container iframe {
+    display: block;
 }
