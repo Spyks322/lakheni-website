@@ -553,3 +553,62 @@ Resolution: 390 × 844
 The mobile version was tested to ensure that the website remains readable and usable on a small screen.
 
 ![Mobile screenshot](images/screenshots/Mobile-screenshot.png)
+
+
+
+### Mobile Navigation
+
+A responsive mobile navigation menu was implemented using JavaScript.
+
+The navigation menu includes a hamburger menu button that allows users to open and close the navigation links on smaller screens.
+
+JavaScript was used to:
+
+- Detect user interaction with the menu button.
+- Add and remove the active class.
+- Open and close the navigation menu.
+- Update the `aria-expanded` accessibility attribute.
+
+This improves the user experience on mobile devices and makes the website easier to navigate.
+
+
+
+
+
+## Changelog
+
+### Part 1 – HTML Foundation
+
+- Created the website project structure.
+- Developed the Home page.
+- Created the About Us page.
+- Created the Products page.
+- Created the Services page.
+- Created the Contact page.
+- Added semantic HTML.
+- Added navigation and footer sections.
+- Created the quotation form.
+
+### Part 2 – CSS and Responsive Design
+
+- Added the main CSS stylesheet.
+- Applied Lakheni Technologies branding colours.
+- Added navy blue and gold styling.
+- Styled navigation and buttons.
+- Added responsive design.
+- Added CSS media queries.
+- Tested desktop, tablet and mobile layouts.
+
+### Part 3 – JavaScript, SEO and Functionality
+
+- Added JavaScript functionality.
+- Added mobile hamburger navigation.
+- Added client-side form validation.
+- Added email validation.
+- Added customer feedback messages.
+- Added Google Maps integration.
+- Added SEO titles and meta descriptions.
+- Added keywords and robots meta tags.
+- Improved image alt text.
+- Performed responsive testing.
+- Performed JavaScript testing.

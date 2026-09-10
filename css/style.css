@@ -531,7 +531,7 @@ footer a:hover {
         font-size: 1.7rem;
     }
 
-    nav ul {
+    /*nav ul {
         flex-direction: column;
 
         gap: 0;
@@ -552,7 +552,7 @@ footer a:hover {
     main > section:first-child {
         min-height: 450px;
 
-        padding: 60px 20px;
+        padding: 60px 20px;*/
     }
 
     main > section:first-child h2 {
@@ -641,4 +641,71 @@ footer a:hover {
 
 .map-container iframe {
     display: block;
+}/* =========================================
+   MOBILE HAMBURGER MENU
+   ========================================= */
+
+.menu-toggle {
+    display: none;
+
+    background: transparent;
+    color: #F5B400;
+
+    border: none;
+
+    font-size: 2rem;
+
+    cursor: pointer;
+
+    padding: 10px 20px;
+}
+
+
+/* Mobile Navigation */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+
+        background-color: #0d2859;
+    }
+
+    .menu-toggle {
+        display: block;
+        width: 100%;
+        text-align: right;
+    }
+
+    .nav-links {
+        display: none;
+
+        flex-direction: column;
+
+        width: 100%;
+
+        padding: 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links a {
+        display: block;
+
+        width: 100%;
+
+        padding: 15px;
+
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
 }
